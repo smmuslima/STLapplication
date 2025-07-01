@@ -5,12 +5,10 @@
 using namespace std;
 
 int main(){
-int n;
-cout<<"Enter the number of n\n";
-cin>>n;
 
 
-vector<int>v(n);
+
+vector<int>v(100);
 cout<<"Enter the element of vector\n";
 
 for(int i=0; i<n; i++){
